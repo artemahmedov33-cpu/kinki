@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
@@ -309,11 +309,13 @@ body:has(.nav-links.open) .mfab{transform:translateY(160%)!important}
 <style>body:has(.mfab.show) .toast{transform:translateY(240%)!important;opacity:0!important}</style>
 <style id="fix-2026">
 .nav-links a.btn-gold,.nav-links a.btn-gold:hover{color:#0e0d0b}
-.gal-badge{position:absolute;left:8px;bottom:8px;z-index:4;display:flex;align-items:center;gap:7px;background:rgba(255,255,255,.93);border-radius:11px;padding:4px 12px 4px 4px;box-shadow:0 4px 14px rgba(0,0,0,.28)}
-.gal-badge i{display:flex;flex-direction:column;align-items:center;justify-content:center;width:28px;height:28px;border-radius:7px;background:#34b86a;color:#fff;font-style:normal;font-size:8px;font-weight:800;line-height:1.05;letter-spacing:.2px}
-.gal-badge i b{font-weight:600;font-size:7px;opacity:.95}
-.gal-badge em{font-style:normal;font-weight:800;font-size:12px;letter-spacing:.3px;text-transform:uppercase;color:#15130f}
-@media(max-width:600px){.gal-badge em{font-size:10px}.gal-badge i{width:24px;height:24px}}
+.gal{gap:0!important}
+.gal a{border-radius:0!important}
+.gal-badge{position:absolute;left:10px;bottom:10px;z-index:4;display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.96);border-radius:14px;padding:6px 18px 6px 6px;box-shadow:0 4px 22px rgba(0,0,0,.38)}
+.gal-badge i{display:flex;flex-direction:column;align-items:center;justify-content:center;width:44px;height:44px;border-radius:10px;background:#34b86a;color:#fff;font-style:normal;font-size:11px;font-weight:800;line-height:1.1;letter-spacing:.3px}
+.gal-badge i b{font-weight:600;font-size:9.5px;opacity:.9}
+.gal-badge em{font-style:normal;font-weight:900;font-size:16px;letter-spacing:.4px;text-transform:uppercase;color:#15130f}
+@media(max-width:600px){.gal-badge em{font-size:13px}.gal-badge i{width:36px;height:36px}}
 .map-wrap{border:1px solid var(--line);border-radius:20px;overflow:hidden;height:440px;box-shadow:0 30px 80px rgba(0,0,0,.45)}
 .map-wrap iframe{width:100%;height:100%;display:block;border:0}
 @media(max-width:600px){.map-wrap{height:360px}}
